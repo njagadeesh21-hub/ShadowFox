@@ -1,0 +1,857 @@
+/* ================= GOOGLE FONT ================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* ================= RESET ================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+    scroll-behavior:smooth;
+}
+
+/* ================= BODY ================= */
+
+body{
+    background:black;
+    color:white;
+}
+
+/* ================= SIDEBAR ================= */
+
+.sidebar{
+
+    position:fixed;
+
+    left:0;
+
+    top:0;
+
+    width:240px;
+
+    height:100vh;
+
+    background:#111;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:space-between;
+
+    padding:30px 20px;
+
+    border-right:2px solid yellow;
+
+}
+
+/* ================= LOGO ================= */
+
+.logo{
+
+    color:white;
+
+    text-align:center;
+
+    font-size:30px;
+
+    margin-bottom:40px;
+
+}
+
+.logo span{
+
+    color:yellow;
+
+}
+
+/* ================= MENU ================= */
+
+.sidebar ul{
+
+    list-style:none;
+
+}
+
+.sidebar ul li{
+
+    margin:18px 0;
+
+}
+
+.sidebar ul li a{
+
+    display:block;
+
+    text-decoration:none;
+
+    color:white;
+
+    background:#1a1a1a;
+
+    padding:12px;
+
+    border-radius:10px;
+
+    transition:.4s;
+
+    font-size:16px;
+
+}
+
+.sidebar ul li a i{
+
+    margin-right:10px;
+
+}
+
+.sidebar ul li a:hover{
+
+    background:yellow;
+
+    color:black;
+
+    transform:translateX(8px);
+
+}
+
+/* ================= SOCIAL ICONS ================= */
+
+.sidebar-social{
+
+    text-align:center;
+
+}
+
+.sidebar-social a{
+
+    color:yellow;
+
+    font-size:22px;
+
+    margin:0 8px;
+
+    transition:.4s;
+
+}
+
+.sidebar-social a:hover{
+
+    color:white;
+
+}
+
+/* ================= MAIN ================= */
+
+.main{
+
+    margin-left:260px;
+
+    padding:40px;
+
+}
+
+/* ================= HERO ================= */
+
+.hero{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+/* ================= LEFT ================= */
+
+.hero-left{
+
+    width:55%;
+
+}
+
+.hero-left h4{
+
+    color:yellow;
+
+    font-size:20px;
+
+}
+
+.hero-left h1{
+
+    font-size:55px;
+
+    margin:10px 0;
+
+}
+
+.hero-left h3{
+
+    color:#ddd;
+
+    font-size:26px;
+
+    margin-bottom:20px;
+
+}
+
+.hero-left p{
+
+    color:#bdbdbd;
+
+    line-height:1.8;
+
+    font-size:16px;
+
+}
+
+/* ================= BUTTONS ================= */
+
+.buttons{
+
+    margin-top:30px;
+
+}
+
+.btn{
+
+    display:inline-block;
+
+    background:yellow;
+
+    color:black;
+
+    text-decoration:none;
+
+    padding:12px 28px;
+
+    border-radius:8px;
+
+    font-weight:600;
+
+    margin-right:15px;
+
+    transition:.4s;
+
+}
+
+.btn:hover{
+
+    transform:translateY(-5px);
+
+}
+
+.btn2{
+
+    display:inline-block;
+
+    border:2px solid yellow;
+
+    color:yellow;
+
+    text-decoration:none;
+
+    padding:12px 28px;
+
+    border-radius:8px;
+
+    transition:.4s;
+
+}
+
+.btn2:hover{
+
+    background:yellow;
+
+    color:black;
+
+}
+
+/* ================= HERO ICONS ================= */
+
+.hero-icons{
+
+    margin-top:35px;
+
+}
+
+.hero-icons a{
+
+    color:yellow;
+
+    font-size:25px;
+
+    margin-right:18px;
+
+    transition:.4s;
+
+}
+
+.hero-icons a:hover{
+
+    color:white;
+
+}
+
+/* ================= IMAGE ================= */
+
+.hero-right{
+
+    width:40%;
+
+    text-align:center;
+
+}
+
+.hero-right img{
+
+    width:330px;
+
+    height:330px;
+
+    object-fit:cover;
+
+    border-radius:50%;
+
+    border:5px solid yellow;
+
+    box-shadow:0 0 30px yellow;
+
+}
+/* ================= COMMON ================= */
+
+section{
+    padding:80px 0;
+}
+
+.section-title{
+    text-align:center;
+    font-size:32px;
+    color:yellow;
+    margin-bottom:40px;
+}
+
+/* ================= ABOUT ================= */
+
+.about-card{
+
+    background:#151515;
+
+    padding:35px;
+
+    border-radius:15px;
+
+    border-left:5px solid yellow;
+
+    box-shadow:0 0 15px rgba(255,255,0,.15);
+
+}
+
+.about-card h3{
+
+    color:yellow;
+
+    margin-bottom:20px;
+
+}
+
+.about-card p{
+
+    color:#d5d5d5;
+
+    line-height:1.9;
+
+    margin-bottom:15px;
+
+}
+
+/* ================= SKILLS ================= */
+
+.skill-box{
+
+    background:#151515;
+
+    margin-bottom:30px;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    border-left:5px solid yellow;
+
+}
+
+.skill-box h3{
+
+    color:yellow;
+
+    margin-bottom:20px;
+
+}
+
+.skill-tags{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:15px;
+
+}
+
+.skill-tags span{
+
+    background:yellow;
+
+    color:black;
+
+    padding:10px 18px;
+
+    border-radius:30px;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.skill-tags span:hover{
+
+    transform:scale(1.08);
+
+    background:white;
+
+}
+
+/* ================= PROJECTS ================= */
+
+.project-container{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+    gap:30px;
+
+}
+
+.project-card{
+
+    background:#151515;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    border-top:5px solid yellow;
+
+    transition:.4s;
+
+}
+
+.project-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 0 25px rgba(255,255,0,.25);
+
+}
+
+.project-card h3{
+
+    color:yellow;
+
+    margin-bottom:15px;
+
+}
+
+.project-card p{
+
+    color:#cfcfcf;
+
+    line-height:1.8;
+
+}
+
+/* ================= EDUCATION ================= */
+
+.education-card{
+
+    background:#151515;
+
+    padding:25px;
+
+    margin-bottom:20px;
+
+    border-left:5px solid yellow;
+
+    border-radius:12px;
+
+}
+
+.education-card h3{
+
+    color:yellow;
+
+    margin-bottom:10px;
+
+}
+
+.education-card p{
+
+    color:#d0d0d0;
+
+}
+
+/* ================= RESUME ================= */
+
+.resume{
+
+    text-align:center;
+
+}
+
+.resume p{
+
+    color:#cccccc;
+
+    margin-bottom:25px;
+
+}
+
+/* ================= CONTACT ================= */
+
+.contact-container{
+
+    display:flex;
+
+    justify-content:center;
+
+}
+
+.contact-card{
+
+    width:600px;
+
+    background:#151515;
+
+    padding:35px;
+
+    border-radius:15px;
+
+    border-top:5px solid yellow;
+
+}
+
+.contact-card p{
+
+    margin:15px 0;
+
+    color:#d5d5d5;
+
+}
+
+.contact-card strong{
+
+    color:yellow;
+
+}
+
+.contact-card .social-icons{
+
+    margin-top:25px;
+
+}
+
+.contact-card .social-icons a{
+
+    color:yellow;
+
+    font-size:25px;
+
+    margin-right:20px;
+
+}
+
+.contact-card .social-icons a:hover{
+
+    color:white;
+
+}
+/* ================= FOOTER ================= */
+
+footer{
+
+    margin-top:80px;
+
+    padding:30px;
+
+    text-align:center;
+
+    background:#111;
+
+    border-top:2px solid yellow;
+
+}
+
+footer h3{
+
+    color:yellow;
+
+    font-size:24px;
+
+    margin-bottom:10px;
+
+}
+
+footer p{
+
+    color:#bdbdbd;
+
+    margin:8px 0;
+
+    font-size:15px;
+
+}
+
+/* ================= SCROLLBAR ================= */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:black;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:yellow;
+
+    border-radius:10px;
+
+}
+
+/* ================= ANIMATIONS ================= */
+
+.project-card,
+.skill-box,
+.about-card,
+.education-card,
+.contact-card{
+
+    transition:0.4s ease;
+
+}
+
+.project-card:hover,
+.skill-box:hover,
+.about-card:hover,
+.education-card:hover,
+.contact-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 0 20px rgba(255,255,0,0.3);
+
+}
+
+/* ================= ACTIVE SIDEBAR ================= */
+
+.sidebar ul li a.active{
+
+    background:yellow;
+
+    color:black;
+
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media(max-width:992px){
+
+    .sidebar{
+
+        position:relative;
+
+        width:100%;
+
+        height:auto;
+
+        border-right:none;
+
+        border-bottom:2px solid yellow;
+
+    }
+
+    .sidebar ul{
+
+        display:flex;
+
+        flex-wrap:wrap;
+
+        justify-content:center;
+
+    }
+
+    .sidebar ul li{
+
+        margin:10px;
+
+    }
+
+    .main{
+
+        margin-left:0;
+
+        padding:25px;
+
+    }
+
+    .hero{
+
+        flex-direction:column-reverse;
+
+        text-align:center;
+
+    }
+
+    .hero-left{
+
+        width:100%;
+
+    }
+
+    .hero-right{
+
+        width:100%;
+
+        margin-bottom:40px;
+
+    }
+
+    .hero-right img{
+
+        width:240px;
+
+        height:240px;
+
+    }
+
+    .buttons{
+
+        display:flex;
+
+        justify-content:center;
+
+        flex-wrap:wrap;
+
+        gap:15px;
+
+    }
+
+}
+
+/* ================= MOBILE ================= */
+
+@media(max-width:600px){
+
+    .logo{
+
+        font-size:24px;
+
+    }
+
+    .sidebar ul li a{
+
+        font-size:14px;
+
+        padding:10px;
+
+    }
+
+    .hero-left h1{
+
+        font-size:38px;
+
+    }
+
+    .hero-left h3{
+
+        font-size:20px;
+
+    }
+
+    .hero-left p{
+
+        font-size:14px;
+
+    }
+
+    .section-title{
+
+        font-size:28px;
+
+    }
+
+    .skill-tags{
+
+        justify-content:center;
+
+    }
+
+    .skill-tags span{
+
+        font-size:13px;
+
+        padding:8px 15px;
+
+    }
+
+    .project-container{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .contact-card{
+
+        width:100%;
+
+    }
+
+    footer h3{
+
+        font-size:20px;
+
+    }
+
+    footer p{
+
+        font-size:14px;
+
+    }
+
+}
+
+/* ================= SELECTION ================= */
+
+::selection{
+
+    background:yellow;
+
+    color:black;
+
+}
